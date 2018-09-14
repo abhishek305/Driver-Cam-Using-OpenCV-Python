@@ -12,7 +12,7 @@ root.title('Driver Cam')
 frame.config(background='light blue')
 label = Label(frame, text="Driver Cam",bg='light blue',font=('Times 35 bold'))
 label.pack(side=TOP)
-filename = PhotoImage(file="E:\python\Driver Cam\demo.png")
+filename = PhotoImage(file="demo.png")
 background_label = Label(frame,image=filename)
 background_label.pack(side=TOP)
 
